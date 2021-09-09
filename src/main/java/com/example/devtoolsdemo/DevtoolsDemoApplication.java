@@ -15,9 +15,9 @@ public class DevtoolsDemoApplication {
 	@RestController
 	public static  class MyController {
 
-		@GetMapping("/hello")
+		@GetMapping("/hello1")
 		String salutaion1(){
-			return "Hello World \n";
+			return "Hello World1 \n";
 		}
 		@GetMapping("/salut")
 		String salutaion2(){
